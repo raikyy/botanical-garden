@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #475f45;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.section {
+  height: 100vh;
+}
+
+.title {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57px;
+  line-height: 110%;
+  text-transform: capitalize;
+  color: #343d33;
+}
+
+.subtitle {
+  font-family: "Libre Baskerville", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 110%;
+  text-transform: capitalize;
+}
+.header {
+  height: 88px;
+  margin-bottom: 56px;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  padding-top: 14px;
+}
+.logo__img {
+  width: 59px;
+  height: 59px;
+  margin-right: 14px;
+}
+.logo__text {
+  margin: 5px 0;
+}
+.logo__title {
+  font-weight: 500;
+  font-size: 23px;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+}
+.logo__subtitle {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+}
+.nav__list {
+  width: 796px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 22px;
+}
+.nav__item {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+.nav__item--border {
+  border: #475f45 solid 2px;
+  padding: 15px 30px;
+}
+.hero__content {
+  display: flex;
+  align-items: center;
+}
+.hero__info-content {
+  margin-right: 184px;
+}
+.hero__desc {
+  font-weight: 300;
+  font-size: 25px;
+  text-transform: capitalize;
+  color: #414840;
+  margin-bottom: 52px;
+}
+.btn {
+  padding: 20px 40px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #475f45;
+  border: #475f45 solid 2px;
+}
+.btn--active {
+    margin-right: 16px;
+    background-color: #475F45;
+    color: #ffffff;
+}
+.hero__img-wrap {
+    border-radius: 40% 40% 0 0;
+    overflow: hidden;
+}
+
