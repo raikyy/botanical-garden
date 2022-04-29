@@ -1,2 +1,2 @@
-https://github.com/raikyy/botanical-garden
+https://raikyy.github.io/botanical-garden/
 # botanical-garden
